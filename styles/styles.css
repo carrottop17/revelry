@@ -1,0 +1,141 @@
+/* https://coolors.co/e4572e-17bebb-ffc914-2e282a-76b041 */
+
+body {
+	font-family: 'Exo', sans-serif;
+	color: #2E282A;
+}
+
+.header {
+	width: 90%;
+	height: 110px;
+	margin: auto;
+}
+
+.title{
+	text-align: center;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: #17BEBB;
+    font-weight: bold;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #17BEBB;
+    border-color: #ccc;
+}
+
+.input-group-addon {
+    background-color: #17BEBB;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.main {
+	width: 90%;
+	margin: auto;
+	height: 100%;
+}
+
+.main-output {
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+#list {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.main-input {
+	/* position: fixed; */
+	margin-bottom: 50px
+}
+
+#map {
+	height: 400px;
+	width: 100%;
+	box-shadow: 5px 5px 10px #888888;
+}
+
+.search-box {
+	margin: 8px 0px;
+}
+
+.form-control{
+	border: 2px solid #17BEBB;
+	margin: 2px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+date-from::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.list {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.listImg img{
+	height: 100px;
+	float: right;
+	box-shadow: 5px 5px 10px #888888;
+	margin: 10px;
+}
+
+.listImg{
+	margin: 5px;
+	border: solid #17BEBB 2px;
+	margin: 20px;
+    box-shadow: 10px 10px 10px #888888;
+}
+
+.listImg:hover{
+	background-color: #aee5e3;
+}
+
+.jumbotron{
+	background: url("../img/revelry4.png") no-repeat center center;;
+	padding-top: 50px;
+    padding-bottom: 25px;
+    background-size: cover;
+    height: 350px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.footer img{
+	margin: 10px 5px;
+}
+
+.hvr-grow {
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.hvr-grow:hover{
+	transform: scale(1.5, 1.5);
+}
+
+.higihlight {
+	background-color: yellow;
+	border: 2px solid black;
+}
+
+.centered {
+   float: none;
+   /* margin: 0 auto; */
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+.aboutuscontent{
+	margin-top: 30px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.profile{
+	margin-right: 30px;
+	border-radius: 50%;
+	display: inline-block;
+}
