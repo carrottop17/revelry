@@ -2,19 +2,19 @@ var fyfApp = angular.module('fyfApp', ['ngRoute']);
 
 fyfApp.config(function($routeProvider){
 	$routeProvider.when('/',{ 
-		templateUrl: "/hacker-snackers/intro.html",
+		templateUrl: "/intro.html",
 		controller: "mainController"
 	});
 	$routeProvider.when('/main',{ 
-		templateUrl: "/hacker-snackers/home.html",
+		templateUrl: "/home.html",
 		controller: "fyfCtrl"
 	});
 	$routeProvider.when('/aboutus',{ 
-		templateUrl: "/hacker-snackers/aboutus.html",
+		templateUrl: "/aboutus.html",
 		controller: "mainController"
 	});
 	$routeProvider.when('/contactus',{ 
-		templateUrl: "/hacker-snackers/contactus.html",
+		templateUrl: "/contactus.html",
 		controller: "mainController"
 	});
 	$routeProvider.otherwise('/'); //default
