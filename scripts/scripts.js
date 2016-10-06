@@ -6,15 +6,15 @@ fyfApp.config(function($routeProvider){
 		controller: "mainController"
 	});
 	$routeProvider.when('/main',{ 
-		templateUrl: "revelry/home.html",
+		templateUrl: "home.html",
 		controller: "fyfCtrl"
 	});
 	$routeProvider.when('/aboutus',{ 
-		templateUrl: "revelry/aboutus.html",
+		templateUrl: "aboutus.html",
 		controller: "mainController"
 	});
 	$routeProvider.when('/contactus',{ 
-		templateUrl: "revelry/contactus.html",
+		templateUrl: "contactus.html",
 		controller: "mainController"
 	});
 	$routeProvider.otherwise('/'); //default
