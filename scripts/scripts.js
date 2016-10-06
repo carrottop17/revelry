@@ -2,7 +2,7 @@ var fyfApp = angular.module('fyfApp', ['ngRoute']);
 
 fyfApp.config(function($routeProvider){
 	$routeProvider.when('/',{ 
-		templateUrl: "revelry/intro.html",
+		templateUrl: "intro.html",
 		controller: "mainController"
 	});
 	$routeProvider.when('/main',{ 
